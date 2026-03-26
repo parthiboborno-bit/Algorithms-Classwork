@@ -1,0 +1,6 @@
+list = ["banana", "orange", "apple", "grape"]
+
+if "apple" in list:
+    print("Entity found")
+else:
+    print("Entity not found")
