@@ -1,0 +1,6 @@
+list = ["s", "c", "h", "o", "o", "l"]
+
+if "a" in list:
+    print("Entity found")
+else:
+    print("Entity not found")
