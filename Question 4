@@ -1,0 +1,6 @@
+list = ["cat", "fish", "bird"]
+
+if "dog" in list:
+    print("Entity found")
+else:
+    print("Entity not found")
