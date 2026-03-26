@@ -1,0 +1,10 @@
+def find_all_indices(arr, target):
+    indices = []
+    for i in range(len(arr)):
+        if arr[i] == target:
+            indices.append(i)
+    return indices
+
+letters = [1, 5, 1, 4, 1, 7]
+print(find_all_indices(letters, 1))
+print(find_all_indices(letters, 8))
